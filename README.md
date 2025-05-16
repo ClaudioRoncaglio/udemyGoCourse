@@ -7,7 +7,7 @@ Per compilare i programmi per altri sistemi operativi, basta anteporre al comand
 
 Per vedere le variabili d'ambiente a disposizione ed i loro valori, basta lancire `go env`.
 
-Comandi per compilare un programma per *MacOs, Linux  e windows*:
+Comandi per compilare un programma per *MacOs, Linux  e Windows*:
 - GOOS=darwin go build
 - GOOS=linux go build
 - GOOS=windows go build
