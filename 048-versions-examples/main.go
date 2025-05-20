@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/ClaudioRoncaglio/puppy"
+)
 
 func main() {
-	fmt.Println("Hello world, we are working on versions")
+	fmt.Println(puppy.Barks())
+	fmt.Println(puppy.BigBarks())
+	puppy.From11()
+	puppy.From12()
 }
